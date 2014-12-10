@@ -1,5 +1,7 @@
 # freeimage cookbook
 
+[![Build Status](https://travis-ci.org/sportngin-cookbooks/freeimage.svg?branch=amazon)](https://travis-ci.org/sportngin-cookbooks/freeimage)
+
 Compiles and installs the [freeimage](http://freeimage.sourceforge.net/) library from source.
 
 # Requirements
