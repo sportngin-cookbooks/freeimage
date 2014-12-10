@@ -281,5 +281,6 @@ DEPENDENCIES
   fog-core (~> 1.24.0)
   foodcritic
   kitchen-ec2
+  rake
   serverspec
   test-kitchen
