@@ -1,2 +1,1 @@
-default['freeimage']['version'] = '3.10.0'
-default['freeimage']['release'] = '5.el6'
+default['freeimage']['source']['url'] = 'http://downloads.sourceforge.net/project/freeimage/Source%20Distribution/3.15.3/FreeImage3153.zip'
