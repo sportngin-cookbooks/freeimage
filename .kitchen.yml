@@ -29,7 +29,7 @@ platforms:
       security_group_ids: ['ci-testing']
       interface: public
       tags:
-        Name: <%= "##{ENV['CI'] ? 'travis-ci' : ENV['USER']}-freeimage-kitchen" %>
+        Name: <%= " #{ENV['CI'] ? 'travis-ci' : ENV['USER']}-freeimage-kitchen" %>
         Env: public
 
 suites:
