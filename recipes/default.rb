@@ -6,7 +6,7 @@ end
 
 execute 'Compile, install and clean freeimage' do
   cwd Chef::Config[:file_cache_path]
-  command "unzip freeimage.zip && cd FreeImage && make && make install && make clean"
+  command "unzip freeimage.zip && cd FreeImage && make && make install && make clean && ldconfig"
   action :nothing
   subscribes :run, 'remote_file[freeimage.zip]', :immediately
 end
