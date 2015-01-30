@@ -38,3 +38,6 @@ suites:
     run_list:
       - recipe[freeimage::default]
     attributes:
+      freeimage:
+        source:
+          url: https://s3.amazonaws.com/sportngin-ops-files/FreeImage3153.zip
