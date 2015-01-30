@@ -1,3 +1,5 @@
+package "gcc-c++"
+
 remote_file 'freeimage.zip' do
   path "#{Chef::Config[:file_cache_path]}/freeimage.zip"
   source node[:freeimage][:source][:url]
